@@ -104,4 +104,5 @@ object DataFramesBasics extends App {
     .load("src/main/resources/data/movies.json")
   moviesDF.printSchema()
   println(s"The Movies DF has ${moviesDF.count()} rows")
+
 }
