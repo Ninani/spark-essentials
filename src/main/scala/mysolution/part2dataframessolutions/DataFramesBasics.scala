@@ -1,9 +1,8 @@
-package part2dataframes
+package mysolution.part2dataframessolutions
 
 import org.apache.spark.sql.SparkSession
-import part2dataframes.DataFramesBasics.spark
 
-object DataFramesBasicsExercise extends App {
+object DataFramesBasics extends App {
 
   // creating a SparkSession
   val spark = SparkSession.builder()
